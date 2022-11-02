@@ -1,0 +1,418 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #80808029;
+    font-family: 'Raleway';
+}
+header > .cont-topo > .logo-topo{
+    width: 32px;
+    height: 32px;
+} 
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;  
+}
+.limite{
+    max-width: 1024px;
+    margin: auto;
+}
+header > .cont-topo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    height: 100%;
+    width: 100%; 
+}
+header > .cont-topo > .parag-topo{
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+.secao-formulario{
+    width: 100%;
+    height: auto;
+    background: url(imagens/bahia.jpg) no-repeat;
+    background-size: cover;
+}
+.secao-formulario > .div-titulo{
+    margin: auto;
+    padding: 50px 20px;
+    width: 100%;
+    height: auto;
+}
+.secao-formulario > .div-titulo > .titulo-form{
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secao-formulario > .div-titulo > .titulo-form > .icone-aviao{
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+}
+.secao-formulario > .div-titulo > .titulo-form > h1{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+.secao-formulario > .div-titulo > .div-formulario{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+}
+.secao-formulario > .div-titulo > .div-formulario > h2{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+.secao-formulario > .div-titulo > .div-formulario > form{
+   display: flex;
+   flex-direction: column;
+}
+label{
+    font-size: 16px;
+}
+.expandir{
+    height: 32px;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 0px 4px;
+}
+form > .alinhando-form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+form > .alinhando-form > .dataOrigem-column{
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px);
+}
+form > .sec-opcao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form > .sec-opcao > .alinhar-opcao{
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+form > .sec-opcao > .alinhar-opcao > div > input{
+    margin-left: 20px;
+    width: 15px;
+}
+form > .sec-opcao > .alinhar-opcao > div > label{
+    margin-left: 8px;
+}
+form > .sec-opcao > .alinhar-opcao > div > .zero-esq-margin{
+    margin-left: 0px;
+}
+button{
+    width: 160px;
+    height: 32px;
+    font-size: 16px;
+    margin-top: 12px;
+    border: none;
+    color: #fff;
+    background-color: #5d15d1;
+    cursor: pointer;
+}
+button:hover{
+    transition: 1s;
+    background-color: #310479;
+}
+.secao-ofertas{
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+}
+.secao-ofertas > .img-agrupar > .img-destaque > .destaque-RJ{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.secao-ofertas > .img-agrupar > .demais-img > figure > img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.secao-ofertas > h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.secao-ofertas > p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.secao-ofertas > p > span{
+    font-weight: bold;
+}
+.secao-ofertas > .img-agrupar{
+    width: 100%;
+    height: 375px;
+    display: flex;
+}
+.secao-ofertas > .img-agrupar > .img-destaque{
+    width: calc(50% - 10px);
+    height: 100%;
+    position: relative;
+}
+.secao-ofertas > .img-agrupar > .img-destaque > figcaption{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px 10px;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 50%);
+    color: #fff;
+}
+.secao-ofertas > .img-agrupar > .demais-img{
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.secao-ofertas > .img-agrupar > .demais-img > figure{
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    position: relative;
+    margin-left: 20px;
+}
+.secao-ofertas > .img-agrupar > .demais-img > figure > figcaption{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px 10px;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 50%);
+    color: #fff;
+}
+.secao-explore{
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+}
+.secao-explore > h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.secao-explore > p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.secao-explore > .explorar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article{
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.secao-explore > .explorar > article > img{ 
+    width: 100%;
+    height: 100%;
+}
+.secao-explore > .explorar > article > div{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+.secao-explore > .explorar > article > div > h4{
+    font-size: 16px;
+}
+.secao-explore > .explorar > article > div > p{
+    color: #808080;
+    font-size: 14px;
+    margin-top: 15px;
+}
+footer{
+    width: 100%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+}
+footer > .container{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto; 
+}
+footer > .container > .coluna{
+    margin: 15px 0px;
+}
+footer > .container > .coluna > div > img{
+    width: 18px;
+}
+footer > .container > .coluna > div > span{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+footer > .container > .coluna > div{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+footer > .container > .coluna > h4{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/*==========================================================================*/
+
+@media (min-width: 320px) and (max-width: 540px){
+    header > .cont-topo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 15px;
+        height: 100%;
+        width: 100%; 
+    }
+    .limite{
+        width: 90%;
+    }
+    form > .alinhando-form{
+        display: flex;
+        flex-direction: column;   
+    }
+    form > .alinhando-form > .dataOrigem-column{
+        width: 100%;
+    }
+    form > .sec-opcao > .alinhar-opcao{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    form > .sec-opcao > .alinhar-opcao > div > input{
+        margin-left: 0px;
+    }
+    form > .sec-opcao > .alinhar-opcao > div > #suite, #garagem, #wifi, #cama-nao{
+        margin-top: 18px;
+    }
+    button{
+        width: 100%;
+    }
+    .secao-ofertas > .img-agrupar{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .secao-ofertas > .img-agrupar > .demais-img{
+        width: 100%;
+        margin: auto;
+    }
+    .secao-ofertas > .img-agrupar > .demais-img > figure{
+        width: 100%;
+        display: flex;
+        margin-left: 0px;
+        margin-top: 14px;
+    }
+    .secao-ofertas > .img-agrupar > .img-destaque{
+        display: flex;
+        width: 100%;
+    }
+    .secao-explore > .explorar{
+        display: flex;
+        flex-direction: column;
+    }
+    .secao-explore > .explorar > article{
+        width: 100%;
+    }
+    .responsivo-margin-top{
+        margin-top: 16px;
+    }
+    footer > .container{
+        display: flex;
+        flex-direction: column;
+    }
+    footer > .container > .coluna{
+        margin: 18px auto;
+        width: 250px;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 768px){
+    header > .cont-topo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 15px;
+        height: 100%;
+        width: 100%; 
+    }
+    .limite{
+        width: 90%;
+    }
+    form > button{
+        width: 100%;
+    }
+    .secao-ofertas > .img-agrupar{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .secao-ofertas > .img-agrupar > .demais-img{
+        width: 100%;
+        margin: auto;
+    }
+    .secao-ofertas > .img-agrupar > .demais-img > figure{
+        width: 100%;
+        display: flex;
+        margin-left: 0px;
+        margin-top: 15px;
+        height: 270px;
+    }
+    .secao-ofertas > .img-agrupar > .img-destaque{
+        display: flex;
+        width: 100%;
+        height: 270px;
+    }
+    .secao-explore > .explorar{
+        display: flex;
+        flex-direction: column;
+    }
+    .secao-explore > .explorar > article{
+        width: 100%;
+    }
+    .responsivo-margin-top{
+        margin-top: 16px;
+    }
+    footer > .container{
+        display: flex;
+        flex-direction: column;
+    }
+    footer > .container > .coluna{
+        margin: 18px auto;
+        width: 250px;
+    }
+}
